@@ -114,7 +114,7 @@ const navigate = useNavigate();
               className={`w-full border p-2 rounded-lg focus:outline-none ${darkMode === "dark" ? "bg-gray-700 text-white" : "bg-white text-black"}`}
             >
               <option value="pending">Pending</option>
-              <option value="in progress">In Progress</option>
+              <option value="in-progress">In Progress</option>
               <option value="completed">Completed</option>
             </select>
           </div>

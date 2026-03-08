@@ -42,7 +42,7 @@ function Dashboard() {
 );
 
 const inProgressTasks = tasks.filter(
-  (task) => task.status === "in progress"
+  (task) => task.status === "in-progress"
 );
 
 const completedTasks = tasks.filter(
